@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+	width:1200px;
+	overflow:hidden;
+}
+#top{
+	width:100%;
+	height:60px;
+	background-color: #369;
+	overflow:hidden;
+}
+#top>img{
+	width:40px;
+	height:40px;
+	float:left;
+	margin:10px 500px 10px 30px;
+}
+.search{
+	width:300px;
+	height:20px;
+	border-radius:10px;
+	background-color:#fff;
+	float:left;
+	margin:20px 0;
+	overflow:hidden;
+}
+.search>img{
+	float:left;
+	margin-left:10px;
+}
+.login{
+	width:100px;
+	height:40px;
+	float:left;
+	overflow:hidden;
+}
+.login>img{
+	float:left;
+	margin:20px;
+}
+.login p{
+	float:left;
+	color:#ffffff;
+	font-size:12px;
+	margin-top:22px;
+	margin-left:-10px;
+}
+#left{
+	width:300px;
+	height:1200px;
+	float:left;
+	background:#333;
+}
+.circle{
+	width:240px;
+	height:120px;
+	overflow:hidden;
+	margin:30px;
+}
+.bigCircle{
+	width:100px;
+	height:100px;
+	border:1px solid #ffffff;
+	border-radius:100px;
+	float:left;
+}
+.smallCircle{
+	width:80px;
+	height:80px;
+	border-radius:80px;
+	background-color:#ffffff;
+	margin:10px;
+}	
+.ABC123{
+	width:80px;
+	height:40px;
+	color:#ffffff;
+	float:left;
+	margin:40px 20px;
+}
+.number{
+	height:60px;
+	overflow:hidden;
+	color: #CCC;
+	opacity: 0.5;
+}
+.collection{
+	width:34px;
+	float:left;
+	margin:0 60px;
+}
+.fans{
+	width:34px;
+	float:left;
+}
+
+.forBgColor{
+	background-color: #666;
+    opacity:0.3;
+	padding:10px;
+}
+.list{
+	color:#ffffff;
+}
+.personalList{
+	list-style-image: url(img/ico-bchart.png);
+	margin:20px 60px;
+}
+.file1{
+	list-style-image:url(img/ico-file.png);
+	margin:20px 40px;
+}
+.file2{
+	list-style-image:url(img/ico-bfile.png);
+	margin-left:40px;
+	color:#ffffff;
+}
+.word1{
+	list-style-image: url(img/ico-doc.png);
+	margin:20px 0;
+}
+.word2{
+	list-style-image: url(img/ico-bdoc.png);
+}
+.file3{
+	list-style-image:url(img/ico-file.png);
+	margin:20px 40px;
+}
+.forMargin{
+	margin-left:60px;
+	padding:10px;
+}
+.personalCollection{
+	list-style-image: url(img/ico-star.png);
+	opacity:0.3;
+}
+.myShare{
+	list-style-image: url(img/ico-share.png);
+	margin:20px 0px;
+	opacity:0.3;
+}
+.photo{
+	list-style-image: url(img/ico-star.png);
+	opacity:0.3;
+}
+.note{
+	list-style-image: url(img/ico-star.png);
+	opacity:0.3;
+	margin:20px 0;
+}
+.count{
+	list-style-image: url(img/ico-count.png);
+	opacity:0.3;
+}
+#right{
+	width:900px;
+    height:1200px;
+	float:right;
+}
+.forWord{
+	color:#999;
+	opacity:0.6;
+	font-size:10px;
+}
+.R-top{
+	margin:10px 20px;
+}
+.R-bottom{
+	height:1162px;
+	background-color: #CCC;
+	padding-top:20px;
+}
+.query{
+	width:800px;
+	height:80px;
+	overflow:hidden;
+	background-color:#ffffff;
+	margin:10px auto;
+}
+.first1{
+	width:130px;
+    margin:16px 20px;
+	float:left;
+}
+.first2{
+	width:100px;
+	margin:10px 0px;
+	float:left;
+	line-height:30px;
+}
+.first3{
+	width:40px;
+	margin:20px 0px;
+	float:left;
+}
+.first4{
+	width:260px;
+	margin:10px 10px;
+	float:left;
+	line-height:30px;;
+}
+.first5{
+	margin:30px 20px;
+	float:left;
+}
+.button{
+	background-color:#06F;
+	padding:5px 10px;
+	color:#ffffff;	
+}
+.history{
+	height:70px;
+	overflow:hidden;
+	margin:0 50px;
+}
+.second1{
+	width:20px;
+	background-color:#fff;
+	line-height:70px;
+	margin-right:4px;
+	float:left;
+}
+.second2{
+	width:100px;
+	background-color:#fff;
+	line-height:38px;
+	float:left;
+	margin-right:4px;
+}
+.second3{
+	width:128px;
+	background-color:#fff;
+	float:left;
+	overflow:hidden;
+}
+.text1{
+	text-align:center;
+	width:100px;
+	height:30px;
+	font-size:10px;
+}
+.text2{
+	font-size:18px;
+	color:#C33;
+	text-align:center;
+}
+.second3 img{
+	width:40px;
+	float:left;
+	padding-top:16px;
+}
+.second3 p{
+	width:70px;
+	line-height:70px;
+	float:left;
+	margin-left:10px;
+}
+.sum-number{
+	font-size:10px;
+	margin:10px 50px;
+}
+.sum{
+	height:80px;
+	overflow:hidden;
+	margin-left:50px;
+}
+.third{
+	width:180px;
+	height:80px;
+	float:left;
+	background-color:#fff;
+	margin-right:26px;
+	overflow:hidden;
+}
+.N133311{
+	width:50px;
+	height:50px;
+	line-height:20px;
+	margin:20px 50px 10px 10px;
+	float:left;
+}
+.small{
+	font-size:10px;
+}
+.squre{
+	width:60px;
+	height:40px;
+	float:left;
+	margin-top:20px;
+}
+.squre1{
+    background-color:#6C9;
+}
+.squre2{
+    background-color: #69F;
+}
+.squre3{
+    background-color: #C00;
+}
+.squre4{
+    background-color: #FC0;
+}
+.project{
+	height:400px;
+	overflow:hidden;
+	margin:20px 50px;
+}
+.project1{
+	width:500px;
+	height:360px;
+	border-radius:5px;
+	border:1px solid  #666;
+	float:left;
+}
+.content{
+	background:#fff;
+	height:320px;
+}
+.sub-titles{
+	overflow:hidden;
+	padding:10px 0 0 20px;
+}
+.sub-title{
+	width:80px;
+	height:30px;
+	background-color: #CCC;
+	float:left;
+	margin-right:8px;
+	line-height:30px;
+    text-align:center;
+}
+.sub-title1{
+	background-color:#fff;
+	border:1px solid #CCC;
+	border-bottom-color:#fff;
+}
+.title{
+	background-color: #9CC;
+	width:480px;
+	height:30px;
+	line-height:30px;
+	opacity:0.3;
+	padding:5px 10px;
+}
+.line{
+	width:380px;
+	height:1px;
+	background-color:#CCC;
+	margin-left:80px;
+}
+.table{
+	margin-left: 20px;
+	width:460px;
+	height:260px;
+	border:1px solid #CCC;
+	border-top-color:#fff;
+}
+table{
+	width:400px;
+	height:200px;
+	margin:30px;
+	border-collapse: collapse;
+}
+td{
+	border:1px solid #999;
+
+}
+.project2{
+	width:284px;
+	height:360px;
+	border-radius:5px;
+	border:1px solid  #666;
+	float:left;
+	margin-left:10px;
+}
+.content2{
+	background:#fff;
+	height:320px;
+}
+.title2{
+	background-color: #9CC;
+	width:266px;
+	height:30px;
+	line-height:30px;
+	opacity:0.3;
+	padding:5px 10px;
+}
+.sub-title2{
+    padding:10px 30px;
+	font-size:10px;
+}
+.list3{
+	margin:0 30px;
+	font-size:12px;
+}
+#list{
+	width:266px;
+	height:60px;
+	overflow:hidden;
+}
+.list1{
+	width:60px;
+	height:40px;
+	border:1px solid #CCC;
+	border-left-color:#fff;
+	float:left;
+	margin:10px 0 0 30px ;
+}
+.list2{
+	width:80px;
+	height:40px;
+	border:1px solid #CCC;
+	border-left-color:#fff;
+	border-right-color:#fff;
+	float:left;
+	margin-top:10px;
+}
+.describe{
+	padding:5px 30px;
+}
+.line2{
+	width:220px;
+	height:1px;
+	background-color:#CCC;
+	margin:80px 20px 0 20px;
+}
+.footer{
+	width:200px;
+	height:30px;
+	overflow:hidden;
+	margin:10px 30px;
+}
+.img2{
+	width:10px;
+	height:10px;
+	float:left;
+}
+.deal{
+	width:100px;
+	float:left;
+	margin:0 10px;
+}
+.search2{
+	background-color:#06F;
+	padding:2px 10px;
+	color:#fff;
+	margin-left:20px;
+}
